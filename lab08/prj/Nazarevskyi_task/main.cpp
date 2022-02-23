@@ -12,20 +12,20 @@ char a = '0', b = '0';
 
 string Copyright()
 {
-    return "© Назаревський Максим Володимирович";
+    return "В© РќР°Р·Р°СЂРµРІСЃСЊРєРёР№ РњР°РєСЃРёРј Р’РѕР»РѕРґРёРјРёСЂРѕРІРёС‡";
 }
 
 void inputValues(int Y, int X, int Z, char A, char B)
 {
-     cout << "Введіть значення y: " << endl;
+     cout << "Р’РІРµРґС–С‚СЊ Р·РЅР°С‡РµРЅРЅСЏ y: " << endl;
         cin >> Y; y = Y;
-    cout << "Введіть значення x: " << endl;
+    cout << "Р’РІРµРґС–С‚СЊ Р·РЅР°С‡РµРЅРЅСЏ x: : " << endl;
         cin >> X; x = X;
-    cout << "Введіть значення z: " << endl;
+    cout << "Р’РІРµРґС–С‚СЊ Р·РЅР°С‡РµРЅРЅСЏ z: " << endl;
         cin >> Z; z = Z;
-    cout << "Введіть символ a: " << endl;
+    cout << "Р’РІРµРґС–С‚СЊ СЃРёРјРІРѕР» a: " << endl;
         cin >> A; a = A;
-    cout << "Введіть символ b: " << endl;
+    cout << "Р’РІРµРґС–С‚СЊ СЃРёРјРІРѕР» b: " << endl;
         cin >> B; b = B;
 }
 
@@ -36,13 +36,13 @@ bool Compare(int A, int B)
 
 void DecAndHex(int Y, int X, int Z)
 {
-    cout << "'y' в десятковій: " << dec << Y << endl
-         << "'x' в десятковій: " << dec << X << endl
-         << "'z' в десятковій: " << dec << Z << endl << endl;
+    cout << "'y' РІ РґРµСЃСЏС‚РєРѕРІС–Р№: " << dec << Y << endl
+         << "'x' РІ РґРµСЃСЏС‚РєРѕРІС–Р№: " << dec << X << endl
+         << "'z' РІ РґРµСЃСЏС‚РєРѕРІС–Р№: " << dec << Z << endl << endl;
 
-    cout << "'y' в шістнацятковій: " << hex << Y << endl
-         << "'x' в шістнацятковій: " << hex << X << endl
-         << "'z' в шістнацятковій: " << hex << Z << endl;
+    cout << "'y' РІ С€С–СЃС‚РЅР°С†СЏС‚РєРѕРІС–Р№: " << hex << Y << endl
+         << "'x' РІ С€С–СЃС‚РЅР°С†СЏС‚РєРѕРІС–Р№: " << hex << X << endl
+         << "'z' РІ С€С–СЃС‚РЅР°С†СЏС‚РєРѕРІС–Р№: " << hex << Z << endl;
 }
 
 int main()
@@ -52,9 +52,9 @@ int main()
     cout << Copyright() << endl << endl;
     inputValues(y, x, z, a, b);
     cout << boolalpha
-         << "Результат " << a << " + 1 = 2 + " << b << " : " << Compare(a, b) << endl << endl;
+         << "Р РµР·СѓР»СЊС‚Р°С‚ " << a << " + 1 = 2 + " << b << " : " << Compare(a, b) << endl << endl;
     DecAndHex(y, x, z);
-    cout << endl << "Результат виразу: " << s_calculation(y, x, z);
+    cout << endl << "Р РµР·СѓР»СЊС‚Р°С‚ РІРёСЂР°Р·Сѓ: " << s_calculation(y, x, z);
     _getch(); return 0;
 }
 
