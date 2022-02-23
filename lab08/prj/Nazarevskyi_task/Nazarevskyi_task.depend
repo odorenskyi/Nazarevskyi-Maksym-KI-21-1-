@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1645659131 source:d:\projects\nazarevskyi-maksym-ki-21-1-\lab08\prj\task-8_1\main.cpp
+	<iostream>
+	<locale.h>
+	<iomanip>
+	<conio.h>
+	<cstring>
+	"ModulesNazarevskyi.h"
+
+1645615637 d:\projects\nazarevskyi-maksym-ki-21-1-\lab08\prj\modulesnazarevskyi\modulesnazarevskyi.h
+	<cmath>
+
