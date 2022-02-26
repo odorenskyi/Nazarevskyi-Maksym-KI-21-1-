@@ -16,7 +16,7 @@ int main()
 
     double expectedResult[5] = { -3.05897, -7.1874, 0, -5.72915, -6.51101 };
     double doneResult = 0;
-    double NAC = 0.00005; // ЧИСЛА ПІСЛЯ КОМИ
+    double NAC = 0.00005; // Р§РРЎР›Рђ РџР†РЎР›РЇ РљРћРњР
     bool TestResult = false;
 
     for (int i = 0; i < 5; i++) {
@@ -26,14 +26,14 @@ int main()
         else
             { TestResult = abs(doneResult) - abs(expectedResult[i]) <= NAC; }
 
-        cout << "Тестові значення №" << i + 1 << " : "
+        cout << "РўРµСЃС‚РѕРІС– Р·РЅР°С‡РµРЅРЅСЏ в„–" << i + 1 << " : "
              << "X = " << cX[i]
              << "  Y = " << cY[i]
              << "  Z = " << cZ[i]
              << endl;
-        cout << "Очікуваний результат: " << expectedResult[i] << endl;
-        cout << "Отриманий результат : " << doneResult << endl;
-        cout << boolalpha << "Тестовий результат  : " << TestResult << endl << endl;
+        cout << "РћС‡С–РєСѓРІР°РЅРёР№ СЂРµР·СѓР»СЊС‚Р°С‚: " << expectedResult[i] << endl;
+        cout << "РћС‚СЂРёРјР°РЅРёР№ СЂРµР·СѓР»СЊС‚Р°С‚ : " << doneResult << endl;
+        cout << boolalpha << "РўРµСЃС‚РѕРІРёР№ СЂРµР·СѓР»СЊС‚Р°С‚  : " << TestResult << endl << endl;
     }
     _getch();
     return 0;
