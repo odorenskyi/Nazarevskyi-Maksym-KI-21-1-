@@ -1,3 +1,5 @@
+#include <iostream>
+#include <cmath>
 #include "ModulesNazarevskyi.h"
 
 double s_calculation(float x, float y, float z)
@@ -46,10 +48,20 @@ void bofort()
         cout << "28.4 - 32.6 - Шквальний шторм";
         break;
     case 12:
-        cout << ">32.6 - Ураган(Буревій)";
+        cout << "> 32.6 - Ураган(Буревій)";
         break;
     default:
         cout << "Невірний бал Бофорта";
     }
 }
 
+void twoPowers(int n, int m)
+{
+    for (int i = n; i <= m; ++i){
+            if (i%2){
+        cout << i <<" " << endl;
+        }
+    }
+    cout << pow(n,m) << endl;
+    cout << pow(m,n) << endl;
+}
