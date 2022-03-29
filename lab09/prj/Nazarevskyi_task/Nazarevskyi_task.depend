@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1648489307 source:d:\projects\nazarevskyi-maksym-ki-21-1-\lab09\prj\nazarevskyi_task\main.cpp
+	<iostream>
+	<locale.h>
+	<windows.h>
+	<ModulesNazarevskyi.h>
+
+1648488241 d:\projects\nazarevskyi-maksym-ki-21-1-\lab09\prj\modulesnazarevskyi\modulesnazarevskyi.h
+
