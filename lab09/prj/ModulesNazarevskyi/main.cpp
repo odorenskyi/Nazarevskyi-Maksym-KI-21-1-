@@ -1,15 +1,17 @@
 #include <iostream>
 #include <cmath>
+#include <bitset>
 #include "ModulesNazarevskyi.h"
+
+using namespace std;
 
 double s_calculation(float x, float y, float z)
 {
     return z*sin(pow(x,2) * y) + sqrt(abs(z - x*12))/pow(y,3);
 }
-
-void bofort()
+void bofort(int bal)
 {
-    switch ()
+    switch (bal)
     {
     case 0:
         cout << "< 0.3 - Штиль";
@@ -48,20 +50,39 @@ void bofort()
         cout << "28.4 - 32.6 - Шквальний шторм";
         break;
     case 12:
-        cout << "> 32.6 - Ураган(Буревій)";
+        cout << ">32.6 - Ураган(Буревій)";
         break;
     default:
-        cout << "Невірний бал Бофорта";
+        cout << "Невірний бал Бофорта, введіть число від 0 до 12";
     }
 }
 
-void twoPowers(int n, int m)
+int twoPowers(int n, int m)
 {
+    cout << "Непарні числа у проміжку: ";
     for (int i = n; i <= m; ++i){
             if (i%2){
-        cout << i <<" " << endl;
+        cout << i <<" ";
         }
     }
+    cout << endl;
+    cout << "Число n в степені m = ";
     cout << pow(n,m) << endl;
-    cout << pow(m,n) << endl;
+    cout << "Число m в степені n = ";
+    return pow(m,n);
+}
+
+int numBit(int num)
+{
+    if(num < 0 || num > 80000){
+        cout << "Невірне число, введіть число від 0 до 80000 " << endl;
+        return -1;
+    }
+    bitset<32> b_number(num);
+    if(b_number[2]){
+        return b_number.count();
+    }
+    else {
+        return 32 - b_number.count();
+    }
 }
