@@ -40,7 +40,7 @@ int main()
     int num[5] = {22, 28312, 3042, 13, 2270};
     int res_numBit [5] = {3, 24, 25, 3, 7};
     for (int i = 0; i < 5; i++){
-            cout << "���������: " << numBit(num[i]) << endl << "���������� ���������: "<< res_numBit[i] << endl;
+            cout << "Результат: " << numBit(num[i]) << endl << "Очікуваний результат: "<< res_numBit[i] << endl;
         if (res_numBit[i] == numBit(num[i])){
             cout << "Passed" << endl;
         }
