@@ -42,7 +42,7 @@ int main()
             cin >> n;
             cout << "Введіть ціле число m: " << endl;
             cin >> m;
-            cout << twoPowers(n, m);
+            p = powAndNum(n, m);
         }
         else if (symbol == 'a'){
             cout << "Введіть натуральне число: " << endl;
