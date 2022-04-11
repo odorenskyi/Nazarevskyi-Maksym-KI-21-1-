@@ -23,4 +23,6 @@ int numberSymbolsInText(string outputFileName, string inputTextInFile);
 bool wordsInText(string outputFileName, string inputTextInFile);
 int numbersInText(string inputFileName, string inputTextInFile);
 bool timeInFile(string inputFileName);
+double sCalculationInFile(string outputFileName, float x, float y, float z);
+bool numberBInFile(string outputFileName, unsigned int b);
 #endif // MODULESNAZAREVSKYI_H_INCLUDED
