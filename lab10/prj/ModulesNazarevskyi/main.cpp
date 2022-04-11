@@ -156,7 +156,8 @@ int numberSymbolsInText(string outputFileName, string inputTextInFile)
         numberSymbols++;
     }
 
-    outputFile << "Кількість символів з вхідного файлу: " << numberSymbols << endl << endl;
+    outputFile << "Кількість символів з вхідного файлу: "
+               << numberSymbols << endl << endl;
     outputFile.close();
     return numberSymbols;
 }
@@ -217,7 +218,27 @@ bool timeInFile(string inputFileName)
     ofstream inputFile(inputFileName, ios::app);
     time_t indefTime;
     time(&indefTime);
-    inputFile << "Дата та час дозапису інформаціїї: " << ctime(&indefTime) << endl << endl;
+    inputFile << "Дата та час дозапису інформаціїї: "
+              << ctime(&indefTime) << endl << endl;
     inputFile.close();
+    return true;
+}
+//Task 10.3
+double sCalculationInFile(string outputFileName, float x, float y, float z)
+{
+    ofstream outputFile("outputFile.txt", ios::app);
+    outputFile << "Результат виконання функції s_calculation: "
+               << s_calculation(x, y, z) << endl << endl;
+    outputFile.close();
+    return s_calculation(x, y, z);
+}
+
+bool numberBInFile(string outputFileName, unsigned int b)
+{
+    ofstream outputFile(outputFileName, ios::app);
+    bitset<32> b_number(b);
+    outputFile << "Число b у двійковому коді: "
+               << b_number << endl;
+    outputFile.close();
     return true;
 }
