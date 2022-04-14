@@ -153,7 +153,9 @@ int numberSymbolsInText(string outputFileName, string inputTextInFile)
     int numberSymbols = 0;
 
     for (int i = 0; i < inputTextInFile.length(); i++){
+        if (inputTextInFile[i] != ' '){
         numberSymbols++;
+        }
     }
 
     outputFile << "Кількість символів з вхідного файлу: "
@@ -166,10 +168,10 @@ bool wordsInText(string outputFileName, string inputTextInFile)
 {
     ofstream outputFile(outputFileName, ios::app);
 
-    size_t word1 = inputTextInFile.find("програма");
-    size_t word2 = inputTextInFile.find("модуль");
-    size_t word3 = inputTextInFile.find("студент");
-    size_t word4 = inputTextInFile.find("програміст");
+    size_t word1 = inputTextInFile.find("програма ");
+    size_t word2 = inputTextInFile.find("модуль ");
+    size_t word3 = inputTextInFile.find("студент ");
+    size_t word4 = inputTextInFile.find("програміст ");
 
     if (word1 != string::npos)
         outputFile << "Знайдено слово 'програма'" << endl << endl;
@@ -200,13 +202,17 @@ int numbersInText(string inputFileName, string inputTextInFile)
     ofstream inputTxtFile(inputFileName, ios::app);
     char numbers[10] = {'0','1','2','3','4','5','6','7','8','9'};
     int numbersAmount = 0;
+    size_t foundNumbers;
 
     for (int i = 0; i < inputTextInFile.length(); i++) {
-        for(int j = 0; j < 10; j++)
-        if (numbers[j] == inputTextInFile[i]) {
+            for (int j = 0; j < 10; j++){
+        if (inputTextInFile[i] == numbers[j]) {
             numbersAmount++;
         }
+
+
     }
+}
     inputTxtFile << "Кількість цифр у вхідному файлі: "
                  << numbersAmount << endl << endl;
     inputTxtFile.close();

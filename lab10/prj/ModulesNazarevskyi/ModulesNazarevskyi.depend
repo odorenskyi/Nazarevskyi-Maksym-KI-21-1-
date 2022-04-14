@@ -8,7 +8,8 @@
 
 1648805237 d:\projects\nazarevskyi-maksym-ki-21-1-\lab09\prj\modulesnazarevskyi\modulesnazarevskyi.h
 
-1649677558 source:d:\projects\nazarevskyi-maksym-ki-21-1-\lab10\prj\modulesnazarevskyi\main.cpp
+1649916907 source:d:\projects\nazarevskyi-maksym-ki-21-1-\lab10\prj\modulesnazarevskyi\main.cpp
+	<iostream>
 	<cmath>
 	<bitset>
 	<string>
@@ -18,7 +19,7 @@
 	<ctime>
 	"ModulesNazarevskyi.h"
 
-1649677590 d:\projects\nazarevskyi-maksym-ki-21-1-\lab10\prj\modulesnazarevskyi\modulesnazarevskyi.h
+1649680089 d:\projects\nazarevskyi-maksym-ki-21-1-\lab10\prj\modulesnazarevskyi\modulesnazarevskyi.h
 	<iostream>
 	<cmath>
 	<cstring>
