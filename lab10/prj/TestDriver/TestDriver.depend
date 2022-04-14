@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1649916120 source:d:\projects\nazarevskyi-maksym-ki-21-1-\lab10\prj\testdriver\main.cpp
+	<iostream>
+	<conio.h>
+	<cstring>
+	<clocale>
+	"ModulesNazarevskyi.h"
+
+1649680089 d:\projects\nazarevskyi-maksym-ki-21-1-\lab10\prj\modulesnazarevskyi\modulesnazarevskyi.h
+	<iostream>
+	<cmath>
+	<cstring>
+
