@@ -24,11 +24,10 @@ int main()
     int cZ[5] = { 5, 8, 0, -6, -7 };
 
     double expectedResult[5] = { -3.05897, -7.1874, 0, -5.72915, -6.51101 };
-    const unsigned int natNumber[5] = { 5, 27, 422, 156, 5238 };
+    const unsigned int natNumber[5] = { 5238, 27, 422, 156, 5238 };
 
     for(int i = 0; i < 5; i++){
         canToRedaction("outputFile.txt", "inputFile.txt");
-        expectedResult[i] = abs(expectedResult[i]);
         cout << boolalpha
              << "10 - Запис тексту до вхідного файлу: \n"
              << inputTxtFile("inputFile.txt", inputText[i]) << endl;
@@ -37,7 +36,7 @@ int main()
              << myInfo("outputFile.txt") << endl;
         cout << boolalpha
              << "10.1(2) - Результат підрахунку кількості цифр та дозапис до вихідного файлу: \n"
-             << (numbersInText("outputFile.txt", inputText[i]) == numbersAmount[i]) << endl;
+             << (numbersInText("inputFile.txt", inputText[i]) == numbersAmount[i]) << endl;
         cout << boolalpha
              << "10.1(3) - Результат пошуку слів та дозапис до вихідного файлу: \n"
              << wordsInText("outputFile.txt", inputText[i]) << endl;
