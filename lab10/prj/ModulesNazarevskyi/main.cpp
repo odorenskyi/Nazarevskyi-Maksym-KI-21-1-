@@ -243,7 +243,7 @@ bool numberBInFile(string outputFileName, unsigned int b)
 {
     ofstream outputFile(outputFileName, ios::app);
     bitset<32> b_number(b);
-    outputFile << "Число b у двійковому коді: "
+    outputFile << "Число " << b << " у двійковому коді: "
                << b_number << endl;
     outputFile.close();
     return true;
