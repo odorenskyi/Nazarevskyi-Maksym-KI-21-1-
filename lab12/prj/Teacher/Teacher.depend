@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1654804147 source:d:\projects\nazarevskyi-maksym-ki-21-1-\lab12\prj\teacher\main.cpp
+	"TestFunctions.h"
+
+1654805367 d:\projects\nazarevskyi-maksym-ki-21-1-\lab12\prj\teacher\testfunctions.h
+	"ModulesNazarevskyi.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1654725920 d:\projects\nazarevskyi-maksym-ki-21-1-\lab12\prj\teacher\modulesnazarevskyi.h
+	<string>
+	<cstring>
+	<sstream>
+	<regex>
+
