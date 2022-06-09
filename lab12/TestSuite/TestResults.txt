@@ -1,0 +1,80 @@
+ TEST CASE  1                                        
+ (input)    Pipe height:                  20 cì
+ (input)    Pipe length:                  15 cì
+ (input)    Pipe width:                   10 cì
+ (output)   Pipe parallelepiped: 3000.000000 cì^3
+ (expected) Pipe parallelepiped: 3000.000000 cì^3
+ TEST CASE RESULT:                        true
+------------------------------------------------------
+ TEST CASE  2                                        
+ (input)    Pipe height:                  60 cì
+ (input)    Pipe length:                 150 cì
+ (input)    Pipe width:                   60 cì
+ (output)   Pipe parallelepiped: 540000.000000 cì^3
+ (expected) Pipe parallelepiped: 540000.000000 cì^3
+ TEST CASE RESULT:                        true
+------------------------------------------------------
+ TEST CASE  3                                        
+ (input)    Pipe height:                 3.3 cì
+ (input)    Pipe length:                 9.5 cì
+ (input)    Pipe width:                 13.1 cì
+ (output)   Pipe parallelepiped:  410.684998 cì^3
+ (expected) Pipe parallelepiped:  410.684998 cì^3
+ TEST CASE RESULT:                        true
+------------------------------------------------------
+ TEST CASE  4                                        
+ (input)    Pipe height:                   1 cì
+ (input)    Pipe length:                   1 cì
+ (input)    Pipe width:                    1 cì
+ (output)   Pipe parallelepiped:    1.000000 cì^3
+ (expected) Pipe parallelepiped:    1.000000 cì^3
+ TEST CASE RESULT:                        true
+------------------------------------------------------
+ TEST CASE  5                                        
+ (input)    Pipe height:                   1 cì
+ (input)    Pipe length:                   1 cì
+ (input)    Pipe width:                    1 cì
+ (output)   Pipe parallelepiped:    1.000000 cì^3
+ (expected) Pipe parallelepiped:    1.000000 cì^3
+ TEST CASE RESULT:                        true
+------------------------------------------------------
+ TEST CASE  6                                        
+ (input)    Pipe height:                   1 cì
+ (input)    Pipe length:                   1 cì
+ (input)    Pipe width:                    1 cì
+ (output)   Pipe parallelepiped:    1.000000 cì^3
+ (expected) Pipe parallelepiped:    1.000000 cì^3
+ TEST CASE RESULT:                        true
+------------------------------------------------------
+ TEST CASE  7                                        
+ (input)    Pipe height:                   2 cì
+ (input)    Pipe length:                  40 cì
+ (input)    Pipe width:                   50 cì
+ (output)   Pipe parallelepiped: 4000.000000 cì^3
+ (expected) Pipe parallelepiped: 4000.000000 cì^3
+ TEST CASE RESULT:                        true
+------------------------------------------------------
+ TEST CASE  8                                        
+ (input)    Pipe height:               43.21 cì
+ (input)    Pipe length:               81.78 cì
+ (input)    Pipe width:               12.523 cì
+ (output)   Pipe parallelepiped: 44252.695312 cì^3
+ (expected) Pipe parallelepiped: 44252.695312 cì^3
+ TEST CASE RESULT:                        true
+------------------------------------------------------
+ TEST CASE  9                                        
+ (input)    Pipe height:                  60 cì
+ (input)    Pipe length:                  35 cì
+ (input)    Pipe width:                   12 cì
+ (output)   Pipe parallelepiped: 25200.000000 cì^3
+ (expected) Pipe parallelepiped: 25200.000000 cì^3
+ TEST CASE RESULT:                        true
+------------------------------------------------------
+ TEST CASE 10                                        
+ (input)    Pipe height:                  29 cì
+ (input)    Pipe length:               143.5 cì
+ (input)    Pipe width:                48.32 cì
+ (output)   Pipe parallelepiped: 201083.671875 cì^3
+ (expected) Pipe parallelepiped: 201083.671875 cì^3
+ TEST CASE RESULT:                        true
+------------------------------------------------------
